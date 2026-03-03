@@ -87,11 +87,12 @@ This comprehensive analysis of **17,230** Airbnb listings across New York City p
 
 | Property Type   | Listings | Market Share | Avg Price | Revenue Premium |
 ------------------|----------|--------------|-----------|-----------------|
-| **Apartment**   | 15,822   | 91.8%        | $158      | -1.1%           |
-| **House**       | 776      | 4.5%         | $164      | +2.6%           |
-| **Loft**        | 419      | 2.4%         | $209      | +30.8%          |
+| **Apartment**   | 15,822   | 91.8%        | $158      | -1.2%           |
+| **House**       | 776      | 4.5%         | $164      | +2.5%           |
+| **Loft**        | 419      | 2.4%         | $209      | +30.6%          |
+| **Bed & Breakfast**| 75    | 0.4%         | $108      | -32.5%          |
 | **Townhouse**   | 53       | 0.3%         | $267      | +66.9%          |
-| **Condominium** | ~43      | 0.2%         | $229      | +43.3%          |
+| **Condominium** | 42       | 0.2%         | $229      | +43.1%          |
 
 
 #### Room Type Economics
@@ -101,8 +102,13 @@ This comprehensive analysis of **17,230** Airbnb listings across New York City p
 | Room Type           | Listings | Market Share | Avg Price | Price Premium vs Private Room |
 ----------------------|----------|--------------|-----------|-------------------------------|
 | **Entire home/apt** | 11,255   | 65.3%        | $198      | +**124.9%**                   |
-| **Private room**    | 5,716    | 33.2%        | $88       | Baseline                      |
+| **Private room**    | 5,715    | 33.2%        | $88       | Baseline                      |
 | **Shared room**     | 260      | 1.5%         | $77       | -12.5%                        |
+
+**Business Implications:**
+- **Geographic Duopoly:** Manhattan (54.6%) and Brooklyn (37.9%) collectively dominate 92.5% of the total market inventory. The remaining boroughs have negligible share, indicating that market entry and platform operations must heavily prioritize these two saturated cores.
+- **The Value Disparity Gap:** A significant geographic disparity exists where Brooklyn maintains near-identical ratings to Manhattan (92.9 vs 92.4) but prices at a nearly 30% discount ($133 vs $187). This creates a structural "high value-to-price" opportunity in Brooklyn.
+- **Absolute vs. Per-Capita Pricing (Configuration Limit):** While "Entire home" commands a $198 average price (124.9% higher than "Private room" at $88) and distinct properties like Townhouses command massive premiums, traversing this to a subjective "privacy premium" is statistically flawed. Without data on guest capacity or user profiles (e.g., families vs. solo travelers), these figures solely represent the absolute listing cost, not a verified per-person markup.
 
 ---
 
