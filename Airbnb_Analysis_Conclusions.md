@@ -63,9 +63,9 @@ This comprehensive analysis of **17,230** Airbnb listings across New York City p
 | **Beds**               | 1.5   | 1.0     | 1.0     | 1     | 16     | 15     | Single-bed properties dominate; Beds < 1 excluded by ETL validation
 
 **Business Implications:**
-- **Price Skewness (Luxury Impact):** The price distribution is highly right-skewed. While the median is $137, an exclusive luxury segment drives the mean up to $160 (the top 1% of properties are priced between $574 and $10,000).
+- **Price Skewness (Luxury Impact):** The price distribution exhibits a natural right skew. While the median sits at $137, the presence of an exclusive luxury segment (where the top 1% ranges from $574 up to $10,000) contributes to the higher $160 market average.
 - **Rating Survivor Bias:** A mean rating of 92.6 with extremely low variability (median 94.0) indicates that high ratings are a platform "hygiene factor." With over 76% of properties scoring ≥90, it strongly suggests a survivor bias where sub-par properties naturally exit the market.
-- **Market Saturation:** Single-bed properties dominate the inventory (66%), reflecting the fundamental structure of the NYC short-term rental market which relies heavily on spare rooms and small unit leasing rather than multi-bed operations.
+- **Market Configuration (Beds):** Single-bed properties heavily dominate the inventory (66%). This structural makeup indicates that the platform's supply in this region is fundamentally driven by smaller units designed for solo travelers or couples.
 
 ### 2.2 Categorical Variables: Market Distribution
 
