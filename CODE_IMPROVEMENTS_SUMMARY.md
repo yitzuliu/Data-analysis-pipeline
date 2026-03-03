@@ -5,8 +5,8 @@
 ## Session 2 — 2026-03-03 (Current Session)
 
 ### Status: Airbnb_Analysis_Conclusions.md review in progress
-Completed through: **Executive Summary + Section 1 (Data Quality & Methodology)**
-Remaining: Section 2 (Univariate), Section 3 (Bivariate), Section 4 (Strategic Insights), Section 5 (Future Work), Section 6 (Limitations), Conclusion, and TL;DR finalization.
+Completed through: **Section 2 (Univariate & Categorical Analysis)**
+Remaining: Section 3 (Bivariate), Section 4 (Strategic Insights), Section 5 (Future Work), Section 6 (Limitations), Conclusion, and TL;DR finalization.
 
 ### What Was Done This Session
 
@@ -58,6 +58,8 @@ Remaining: Section 2 (Univariate), Section 3 (Bivariate), Section 4 (Strategic I
 | Executive Summary Bullet 3 | "interesting market dynamics" → "Ratings cluster tightly in the 91–93 range across all boroughs, offering virtually no pricing differentiation" |
 | Section 1.2 Derived Metrics | Removed `price-to-bed ratios` (no corresponding analysis in the doc) |
 | Brooklyn rating in TL;DR | ≥93.0 → ≥92.9 (actual avg 92.9) |
+| Section 2.1 Narrative | Refined Price skewness to be objective; nuanced Rating survivor bias; removed controversial "Winner-takes-most" review insight; neutralized subjective assumptions in Beds market saturation. |
+| Section 2.2 Tables & Narrative | Added Bed & Breakfast to Property Type table (Top 6); appended 3 objective Business Implications covering geographic duopoly, value disparity, and absolute vs per-capita pricing limitations. |
 
 ---
 
@@ -98,7 +100,7 @@ Remaining: Section 2 (Univariate), Section 3 (Bivariate), Section 4 (Strategic I
 ## Remaining Work (Next Session Pick-up)
 
 ### Airbnb_Analysis_Conclusions.md — Sections Still Pending Review
-- [ ] **Section 2** — Univariate Analysis Results (numbers clean; narrative to review)
+- [x] **Section 2** — Univariate Analysis Results (numbers clean; narrative refined)
 - [ ] **Section 3** — Bivariate Analysis: Location Intelligence (numbers clean; narrative to review)
 - [ ] **Section 4** — Strategic Business Insights
 - [ ] **Section 5** — Future Deep-Dive Analysis Recommendations
