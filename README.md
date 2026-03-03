@@ -1,118 +1,76 @@
-# Airbnb NYC Market Analysis: Data Science Portfolio
+# Data Science Portfolio — Airbnb NYC Market Analysis
 
-**A comprehensive data science project demonstrating systematic dataset evaluation, advanced analytics, and business intelligence.**
+A complete data science pipeline applied to the Airbnb NYC dataset (17,230 reviewed listings),
+demonstrating end-to-end skills from dataset selection through ETL, EDA, and business insight generation.
 
----
+> 📄 **Analysis findings and business insights:** [Airbnb_Analysis_Conclusions.md](Airbnb_Analysis_Conclusions.md)
 
-## 🎯 Project Overview
+## Project Description
 
-This portfolio showcases a complete data science workflow:
-- **✅ Systematic 6-dataset evaluation** with weighted scoring (Data Quality 40%, Business Relevance 35%, Technical Complexity 25%)
-- **✅ Professional ETL pipeline** with hierarchical data cleaning and validation
-- **✅ Comprehensive EDA analysis** of 17,282 Airbnb listings across NYC
-- **✅ Business intelligence report** with actionable market insights
+This repository demonstrates data science best practices through a systematic workflow:
 
----
+- **Dataset Evaluation**: Systematic scoring of 6 candidate datasets using a weighted criteria framework (Data Quality 40%, Business Relevance 35%, Technical Complexity 25%)
+- **ETL Pipeline**: Production-grade data cleaning including deduplication, type casting, missing data analysis, and business-rule validation — implemented as a reusable OOP class with full logging
+- **EDA Analysis**: Univariate, categorical, and bivariate analysis with outlier-aware visualizations and quantified business insights
+- **Business Report**: Actionable market intelligence derived from the cleaned dataset (see `Airbnb_Analysis_Conclusions.md`)
 
-## 🏆 Key Findings
-
-### Dataset Selection Results
-| 🥇 | **Airbnb NYC**  **✅ SELECTED & ANALYZED** |
-
-
-### Market Intelligence Highlights
-- **Geographic Concentration**: Manhattan 54.8% market share with 17.2% price premium
-- **Pricing Dynamics**: Entire homes command 122.2% premium over private rooms
-- **Value Opportunities**: Brooklyn shows highest ratings (93.0/100) with 17.4% lower prices
-- **Market Structure**: Location drives pricing more than ratings
-
----
-
-## 📁 Repository Structure
+## Project Structure
 
 ```
-Data Science Portfolio/
-├── 📄 README.md                                    # Project overview
-├── 📋 Airbnb_Analysis_Conclusions.md               # Business intelligence report
-├── 📁 Dataset_Evaluation_Process/                  # Systematic evaluation framework
-│   ├── 📓 Dataset_Evaluation_Process.ipynb        # Evaluation notebook
-│   └── 🐍 Dataset_Evaluation_Process.py           # Evaluation script
-├── 📁 ETL_Process/                                # Data processing pipeline
-│   ├── 📓 ETL_Airbnb_Process.ipynb               # ETL notebook
-│   └── 🐍 ETL.py                                 # ETL script
-├── 📁 EDA_Process & Result/                       # Analysis outputs
-│   └── 📓 Airbnb_EDA.ipynb                       # Comprehensive EDA
-└── 📁 Datasource/                                # Raw and processed datasets
-    ├── airbnb.xlsx                               # Original data
-    ├── airbnb_clean.csv                          # Processed dataset (17,282 × 11)
-    └── [other evaluated datasets]
+├── Dataset_Evaluation_Process/     # Dataset selection and evaluation methodology
+├── EDA_Process & Result/            # Exploratory data analysis workflows
+├── ETL_Process/                     # Data extraction, transformation, and loading
+├── Datasource/                      # Raw datasets and data files
+└── README.md                        # Project documentation
 ```
 
----
+## How to Run
 
-## 🛠️ Technical Skills Demonstrated
-
-### **Core Capabilities**
-- **Python Programming**: pandas, numpy, matplotlib, seaborn
-- **Statistical Analysis**: Descriptive statistics, distribution analysis, correlation studies
-- **Data Visualization**: Professional charts, business-ready insights
-- **ETL Processing**: Data cleaning, hierarchical imputation, validation
-
-### **Advanced Analytics**
-- **Market Intelligence**: Geographic segmentation, price premium analysis
-- **Business Communication**: Executive-ready insights and recommendations
-- **Systematic Methodology**: Weighted evaluation frameworks, transparent processes
-
----
-
-## 🚀 Quick Start
-
-### Prerequisites
+### EDA Analysis
+To run the Exploratory Data Analysis:
 ```bash
-pip install pandas numpy matplotlib seaborn jupyter openpyxl xlrd
+python "EDA_Process & Result/EDA.py"
 ```
 
-### Running the Analysis
-1. **Dataset Evaluation**: `jupyter notebook Dataset_Evaluation_Process/Dataset_Evaluation_Process.ipynb`
-2. **ETL Processing**: `jupyter notebook ETL_Process/ETL_Airbnb_Process.ipynb`
-3. **EDA Analysis**: `jupyter notebook EDA_Process\ \&\ Result/Airbnb_EDA.ipynb`
-4. **Review Report**: Open `Airbnb_Analysis_Conclusions.md`
+### ETL Process
+To run the Extract-Transform-Load process:
+```bash
+python "ETL_Process/ETL.py"
+```
 
----
+### Dataset Evaluation
+To run the dataset evaluation process:
+```bash
+python "Dataset_Evaluation_Process/Dataset_Evaluation_Process.py"
+```
 
-## 📊 Analysis Framework
+### Jupyter Notebooks
+To run the interactive notebooks:
+```bash
+jupyter notebook "EDA_Process & Result/Airbnb_EDA.ipynb"
+jupyter notebook "ETL_Process/ETL_Airbnb_Process.ipynb"
+jupyter notebook "Dataset_Evaluation_Process/Dataset_Evaluation_Process.ipynb"
+```
 
-### **Methodology**
-- **Dataset Selection**: Weighted scoring with quantitative criteria
-- **Data Processing**: Professional ETL with quality validation
-- **Exploratory Analysis**: Univariate, categorical, and bivariate analysis
-- **Business Intelligence**: Strategic insights with revenue impact analysis
+## Dependencies
 
-### **Key Deliverables**
-- Systematic dataset evaluation with 97.8/100 selection score
-- Clean dataset: 17,282 rows × 11 columns, 0% missing data
-- Geographic market analysis across 5 NYC boroughs
-- Price determination factors and market concentration insights
+Make sure you have the following Python packages installed:
+```bash
+pip install pandas numpy matplotlib seaborn jupyter notebook openpyxl
+```
 
----
+## Datasets
 
-## 🔮 Future Enhancements
+The project includes several datasets:
+- Airbnb listings data
+- Netflix titles
+- Spotify features
+- Titanic passenger data
+- AI adoption data
+- Superstore sales data
 
-- **Interactive Visualization**: Tableau dashboards, plotly integration
-- **Machine Learning**: Price prediction models, clustering analysis
-- **Temporal Analysis**: Multi-year trends, seasonal patterns
-- **External Data**: Economic indicators, regulatory impact studies
+## Design Notes
 
----
-
-## 🏆 Portfolio Value
-
-**Technical Excellence**: Advanced Python, statistical analysis, professional visualization  
-**Business Acumen**: Market intelligence, pricing strategy, executive communication  
-**Methodology**: Systematic approach, reproducible workflows, quality assurance  
-
-*This portfolio demonstrates comprehensive data science capabilities essential for analyst/scientist roles, combining technical proficiency with business insight and professional presentation.*
-
----
-
-**Portfolio Contact**: Data Science Professional | Purpose: Skill demonstration for data analyst/scientist positions
+- **`.py` files** — Production-grade pipeline engines (reusable, class-based, fully logged)
+- **`.ipynb` files** — Step-by-step storytelling notebooks that demonstrate each pipeline stage interactively
+- **Logging** — All pipeline runs write to `etl_process.log` / `eda_analysis.log` for full audit trails

@@ -13,7 +13,7 @@ Successfully showcased comprehensive data science skills through systematic data
 
 ### Key Deliverables ✅ ALL COMPLETED
 1. **✅ Dataset Selection Framework** - Systematic approach with weighted criteria (40% Data Quality, 35% Business Relevance, 25% Technical Complexity)
-2. **✅ Comprehensive Analysis** - Deep dive EDA of Airbnb NYC dataset with 17,282 listings
+2. **✅ Comprehensive Analysis** - Deep dive EDA of Airbnb NYC dataset with 17,230 listings
 3. **✅ Professional Documentation** - Industry-standard Jupyter notebooks with clean code and markdown
 4. **✅ Business Insights** - Actionable market intelligence with geographic and pricing analysis
 
@@ -55,9 +55,10 @@ Successfully showcased comprehensive data science skills through systematic data
 
 #### Selection Rationale
 **Airbnb NYC** selected for:
-- **Excellent Data Quality (97.8%)**: 17,282 rows, 11 columns, 0% missing data, 0% duplicates
+- **Excellent Data Quality (97.8%)**: 17,230 rows, 11 columns, 0% missing values post-ETL, 0% duplicates
 - **High Business Relevance**: Real estate market analysis, pricing strategies, geographic intelligence
 - **Rich Technical Opportunities**: Market segmentation, price analysis, geographic visualization potential
+- **Analytical scope note**: Analysis covers reviewed listings only (8,323 unreviewed listings excluded with documented business rationale)
 
 ---
 
@@ -80,19 +81,19 @@ Successfully showcased comprehensive data science skills through systematic data
    - Hierarchical price imputation using zipcode and neighborhood medians
    - Data type optimization and categorical encoding
    - Outlier handling and data validation
-   - Generated clean dataset: 17,282 rows × 11 columns
+   - Generated clean dataset: **17,230 rows × 11 columns** (reviewed listings only; survivor-bias caveat documented in EDA)
 
 2. **✅ Exploratory Data Analysis (EDA)**
    - **Univariate Analysis**: Price ($157.21 avg), Rating (92.6/100 avg), Reviews (15.1 avg), Beds (1.5 avg)
    - **Categorical Analysis**: 5 neighborhoods, 8+ property types, 3 room types
-   - **Distribution Analysis**: Price skewness, rating ceiling effects, review patterns
+   - **Distribution Analysis**: Price luxury outliers (top 1%), rating survivor bias, winner-takes-most review patterns
    - **Market Structure**: Manhattan 54.8% market share, Brooklyn 37.7%
 
 3. **✅ Bivariate Analysis**
    - **Geographic Intelligence**: Neighborhood price premiums and rating analysis
    - **Location-Price Relationships**: Manhattan +17.2% premium, Bronx -50.5% discount
    - **Property Type Impact**: Townhouses +62.8% premium, Apartments baseline
-   - **Room Configuration**: Entire homes +122.2% premium over private rooms
+   - **Room Configuration**: Entire homes +124.9% premium over private rooms
 
 4. **✅ Advanced Analytics**
    - **Market Concentration**: Top 5 neighborhoods contain 100% of listings
@@ -167,7 +168,7 @@ Data Science Portfolio/
 
 ### **✅ Business Impact - DEMONSTRATED**
 - [x] Clear, actionable market intelligence insights
-- [x] Revenue impact analysis (122.2% entire home premium)
+- [x] Revenue impact analysis (124.9% entire home premium)
 - [x] Geographic market segmentation (5-borough analysis)
 - [x] Executive-ready strategic recommendations
 - [x] Data-driven business thinking demonstration
