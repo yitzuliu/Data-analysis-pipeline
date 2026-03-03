@@ -65,7 +65,6 @@ This comprehensive analysis of **17,230** Airbnb listings across New York City p
 **Business Implications:**
 - **Price Skewness (Luxury Impact):** The price distribution is highly right-skewed. While the median is $137, an exclusive luxury segment drives the mean up to $160 (the top 1% of properties are priced between $574 and $10,000).
 - **Rating Survivor Bias:** A mean rating of 92.6 with extremely low variability (median 94.0) indicates that high ratings are a platform "hygiene factor." With over 76% of properties scoring ≥90, it strongly suggests a survivor bias where sub-par properties naturally exit the market.
-- **Review Engagement (Winner-takes-most):** The median number of reviews is 6, indicating that over half the market (50.9%) has minimal booking history. However, the exact opposite occurs at the long tail (max 256), revealing a "winner-takes-most" dynamic where a small fraction of veteran hosts capture the vast majority of guest volume.
 - **Market Saturation:** Single-bed properties dominate the inventory (66%), reflecting the fundamental structure of the NYC short-term rental market which relies heavily on spare rooms and small unit leasing rather than multi-bed operations.
 
 ### 2.2 Categorical Variables: Market Distribution
