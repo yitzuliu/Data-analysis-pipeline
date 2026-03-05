@@ -35,6 +35,9 @@ venv/
 # Ignore log files
 *.log
 
+# Local-only session notes (not for publishing)
+CODE_IMPROVEMENTS_SUMMARY.md
+
 # Ignore data files (optional - uncomment if datasets are large)
 # Datasource/*.csv
 # Datasource/*.xlsx
