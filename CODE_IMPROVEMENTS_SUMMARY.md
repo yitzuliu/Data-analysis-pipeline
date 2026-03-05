@@ -69,7 +69,7 @@ Remaining: Section 3 (Bivariate), Section 4 (Strategic Insights), Section 5 (Fut
 
 #### ETL.py
 - All Chinese comments/logs → English
-- Fixed broken log string `"Removedcols位"` → `"Dropped columns: [...]"`
+- Fixed broken log string `"Removedcols[garbled]"` → `"Dropped columns: [...]"`
 - Added `analyze_missing_patterns()`: logs all 5 gap columns with business reasons before `dropna`
 - Added `Beds >= 1` business-rule validation
 - Fixed `Zipcode` from float64 → Int64 → string
